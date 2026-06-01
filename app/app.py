@@ -78,7 +78,9 @@ st.markdown("""
 # ==============================================================================
 @st.cache_resource
 def load_machine_learning_artifacts():
-    artifacts = joblib.load("irrigation_app.pkl")
+    current_dir = pathlib.Path(__file__).parent.resolve()
+    pkl_path = current_dir / "irrigation_app.pkl"
+    artifacts = joblib.load(pkl_path)
     return (
         artifacts["model"],
         artifacts["encoders"],
