@@ -155,10 +155,8 @@ Categorical features were encoded with `LabelEncoder` prior to modeling.
 
 | Configuration | Accuracy | Balanced Accuracy | Macro F1 |
 |---|---|---|---|
-| Model A — All Features | — | — | — |
-| Model B — Selected Features | — | — | — |
-
-*(Exact values available in notebook output cells)*
+| Model A — All Features | 0.984 | 0.961 | 0.969 |
+| Model B — Selected Features | 0.984 | 0.961 | 0.969 |
 
 ### Individual Models Evaluated
 
@@ -190,12 +188,11 @@ Evaluated on a stratified 20% holdout test set:
 
 | Metric | Score |
 |---|---|
-| Accuracy | — |
-| Balanced Accuracy | — |
-| Macro F1 | — |
-| OVR ROC-AUC | — |
+| Accuracy | 0.984 |
+| Balanced Accuracy | 0.960 |
+| Macro F1 | 0.969 |
+| OVR ROC-AUC | 0.997 |
 
-*(Fill in the actual scores from your notebook output)*
 
 **ROC curves** were plotted per class (One-vs-Rest), with Class 2 (High) being the most challenging due to class imbalance (~3% of samples).
 
