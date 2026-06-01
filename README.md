@@ -254,7 +254,7 @@ def create_features(df):
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/irrigation-need-prediction.git
+   git clone https://github.com/cipherX2433/irrigation-need-prediction.git
    cd irrigation-need-prediction
    ```
 
