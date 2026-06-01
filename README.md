@@ -4,6 +4,8 @@ A machine learning project that classifies agricultural irrigation demand into *
 
 ---
 
+[Demo App](https://irrigation-need-classification-zyivtfewdtbbct3drupvpg.streamlit.app/)
+
 ## 📋 Table of Contents
 
 - [Problem Statement](#problem-statement)
